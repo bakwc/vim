@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-wget https://github.com/bakwc/vim/archive/master.zip --no-check-certificate
+wget --no-check-certificate https://github.com/bakwc/vim/archive/master.zip
 unzip master.zip
 rm ~/.vimrc
 rm -rf ~/.vim/
